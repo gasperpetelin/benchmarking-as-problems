@@ -1,0 +1,24 @@
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - ipython
+  - ipykernel
+  - seaborn
+  - scikit-learn
+  - matplotlib
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+    - torch-scatter
+    - torch-sparse
+    - torch-cluster
+    - torch-spline-conv
+    - torch-geometric

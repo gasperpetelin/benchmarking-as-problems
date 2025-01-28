@@ -1,0 +1,25 @@
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - ipython
+  - ipykernel
+  - seaborn
+  - scikit-learn
+  - matplotlib
+  - pymoo
+  - xgboost
+  - tqdm
+  - polars
+  - pyarrow
+  - pip:
+    - cocopp
+    - pflacco
+
